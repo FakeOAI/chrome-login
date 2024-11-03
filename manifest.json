@@ -1,7 +1,10 @@
 {
   "manifest_version": 3,
   "name": "fakeoai-chrome-helper",
-  "version": "1.0",
+  "version": "1.0.1",
+  "description": "A simple Chrome extension to help you login ChatGPT.",
+  "author": "bao-io",
+  "homepage_url": "https://github.com/fakeoai/chrome-login",
   "permissions": [
     "tabs",
     "webRequest",
@@ -12,6 +15,7 @@
     "<all_urls>"
   ],
   "action": {
+    "default_icon": "icon.png",
     "default_title": "点击打开 FakeOAI Helper"
   },
   "background": {
